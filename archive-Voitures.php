@@ -11,7 +11,15 @@
         </h1>
 
         <?php the_post_thumbnail( 'thumbnail' ); ?>
+        <br>
         <?php the_terms( $post->ID, 'marque', 'Marque : ' ); ?><br> 
+
+        <!-- Afficher une valeur -->
+       Cylindrée : <?php the_field( 'Cylindree' ); ?> Cm3
+
+        <!-- Récupérer la valeur -->
+        <?php $note = get_field( 'Cylindree' ); ?>
+
 
         <div class="content">
           <?php the_content(); ?>

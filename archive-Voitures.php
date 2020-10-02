@@ -15,10 +15,11 @@
         <?php the_terms( $post->ID, 'marque', 'Marque : ' ); ?><br> 
 
         <!-- Afficher une valeur -->
-       Cylindrée : <?php the_field( 'Cylindree' ); ?> Cm3
-
-        <!-- Récupérer la valeur -->
-        <?php $note = get_field( 'Cylindree' ); ?>
+       Cylindrée : <?php the_field( 'cylindree' ); ?> Cm3
+       <br>
+       Année : <?php the_field( 'annee' ); ?>
+       <br>
+       Couleur : <?php the_field( 'couleur' ); ?>
 
 
         <div class="content">

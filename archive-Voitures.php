@@ -15,7 +15,7 @@
         <?php the_terms( $post->ID, 'marque', 'Marque : ' ); ?><br> 
 
         <!-- Afficher une valeur -->
-       Cylindrée : <?php the_field( 'cylindree' ); ?> Cm3
+       Cylindrée : <?php the_field( 'cylindreee' ); ?> Cm3
        <br>
        Année : <?php the_field( 'annee' ); ?>
        <br>
